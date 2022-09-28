@@ -1,0 +1,12 @@
+.content {
+    border-bottom: 1px solid red;
+    background-color: white;
+    .logo {
+        padding: 1em;
+        color: #af1313;
+    }
+    .logo:hover {
+        background-color: red;
+        color: white;
+    }
+}
