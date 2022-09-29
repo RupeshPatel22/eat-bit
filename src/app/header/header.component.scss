@@ -4,6 +4,10 @@
     .logo {
         padding: 1em;
         color: #af1313;
+        cursor: pointer;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+            padding: 1rem;
+        }
     }
     .logo:hover {
         background-color: red;
